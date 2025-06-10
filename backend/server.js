@@ -9,7 +9,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: '*', // Your frontend URL
+  origin: 'https://todo-frontend-virid-rho.vercel.app', // Your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 
