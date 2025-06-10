@@ -13,7 +13,7 @@ admin.initializeApp({
 
 // Enable CORS for the backend
 const corsOptions = {
-  origin: 'https://your-frontend-url.vercel.app', // Replace with your frontend URL
+  origin: '*', // Replace with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 
