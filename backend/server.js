@@ -9,7 +9,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://todo-frontend-virid-rho.vercel.app','https://fictional-fiesta-wrx95p745v5vc96qq-5173.app.github.dev' // Your frontend URL
+  origin: ['https://todo-frontend-virid-rho.vercel.app','https://fictional-fiesta-wrx95p745v5vc96qq-5173.app.github.dev'], // Your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 
