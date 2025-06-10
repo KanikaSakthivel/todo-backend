@@ -13,7 +13,7 @@ admin.initializeApp({
 
 // Enable CORS for the backend
 const corsOptions = {
-  origin: '*', // Replace with your frontend URL
+  origin: 'https://todo-frontend-virid-rho.vercel.app', // Replace with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 
